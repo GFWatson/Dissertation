@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &172312
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 447980}
+  - 114: {fileID: 11487978}
+  m_Layer: 0
+  m_Name: WildebeastController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &447980
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172312}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18999958, y: -0.03999996, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11487978
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 172312}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e447c9b30c6313d42b20124cd12a0a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 14000
+  wCost: 500
+  wGain: 700
+  hRate: 4
+  cRate: 4
+  tRate: 4
+  ani: {fileID: 100340, guid: ad032f1f2c81a0441a1963700e9f1128, type: 2}
+  aniTag: wildebeast
+  scriptB: {fileID: 0}
+  scriptA: {fileID: 0}
+  scriptC: {fileID: 0}
+  scriptT: {fileID: 0}
+  scriptH: {fileID: 0}
+  scriptX: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: price
+      value: 14000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: wCost
+      value: 500
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: wGain
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: animal
+      value: 
+      objectReference: {fileID: 100340, guid: ad032f1f2c81a0441a1963700e9f1128, type: 2}
+    - target: {fileID: 0}
+      propertyPath: hRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: cRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: tRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ani
+      value: 
+      objectReference: {fileID: 100340, guid: ad032f1f2c81a0441a1963700e9f1128, type: 2}
+    - target: {fileID: 0}
+      propertyPath: aniTag
+      value: wildebeast
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 172312}
+  m_IsPrefabParent: 1

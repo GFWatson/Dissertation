@@ -1,0 +1,102 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &113832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 460736}
+  - 114: {fileID: 11426460}
+  m_Layer: 0
+  m_Name: SpottedHyenaController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &460736
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113832}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.18999958, y: -0.03999996, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!114 &11426460
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 113832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e447c9b30c6313d42b20124cd12a0a72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  price: 12000
+  wCost: 700
+  wGain: 1000
+  hRate: 4
+  cRate: 3
+  tRate: 5
+  ani: {fileID: 156858, guid: 3ffa360dfaa102f4b9376d40082c9537, type: 2}
+  aniTag: spottedhyena
+  scriptB: {fileID: 0}
+  scriptA: {fileID: 0}
+  scriptC: {fileID: 0}
+  scriptT: {fileID: 0}
+  scriptH: {fileID: 0}
+  scriptX: {fileID: 0}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: animal
+      value: 
+      objectReference: {fileID: 156858, guid: 3ffa360dfaa102f4b9376d40082c9537, type: 2}
+    - target: {fileID: 0}
+      propertyPath: price
+      value: 12000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: wCost
+      value: 700
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: wGain
+      value: 1000
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: hRate
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: cRate
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: tRate
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: ani
+      value: 
+      objectReference: {fileID: 156858, guid: 3ffa360dfaa102f4b9376d40082c9537, type: 2}
+    - target: {fileID: 0}
+      propertyPath: aniTag
+      value: spottedhyena
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 113832}
+  m_IsPrefabParent: 1

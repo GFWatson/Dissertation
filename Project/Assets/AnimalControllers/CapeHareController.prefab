@@ -46,13 +46,14 @@ MonoBehaviour:
   cRate: 1
   tRate: 1
   ani: {fileID: 137426, guid: 611423cc464999545a73e6a6917be70d, type: 2}
-  aniTag: capehare
+  aniTag: cape hare
   scriptB: {fileID: 0}
   scriptA: {fileID: 0}
   scriptC: {fileID: 0}
   scriptT: {fileID: 0}
   scriptH: {fileID: 0}
   scriptX: {fileID: 0}
+  scriptY: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -94,7 +95,7 @@ Prefab:
       objectReference: {fileID: 137426, guid: 611423cc464999545a73e6a6917be70d, type: 2}
     - target: {fileID: 0}
       propertyPath: aniTag
-      value: capehare
+      value: cape hare
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

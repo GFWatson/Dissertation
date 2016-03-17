@@ -70,7 +70,23 @@ public class randomEvents : MonoBehaviour {
     {
         int rnd = Random.Range(lowVan, highVan);
         scriptF.change(-rnd);
-        scriptX.changeText("Someone has vandalised your resort. It costs " + rnd + " to repair the damage.");
+
+        int rnd2 = Random.Range(0, 3);
+        switch (rnd2)
+        {
+            case 0:
+                scriptX.changeText("A fence has been cut by locals. It costs " + rnd + " to repair.");
+                break;
+            case 1:
+                scriptX.changeText("Vandals have smashed several windows in the night. It costs " + rnd + " to repair.");
+                break;
+            case 2:
+                scriptX.changeText("Someone has driven into a fence, smashing a post. It costs" + rnd + " to repair.");
+                break;
+            case 3:
+                scriptX.changeText("Local youths have sprayed graffiti on walls and signs. It costs " + rnd + " to remove.");
+                break;
+        }
         scriptX.makeVis();
     }
 
@@ -168,7 +184,24 @@ public class randomEvents : MonoBehaviour {
     {
         int rnd = Random.Range(lowWea, highWea);
         scriptF.change(-rnd);
-        scriptX.changeText("A storm has damaged a fence. It costs " + rnd + " to repair.");
+
+        int rnd2 = Random.Range(0, 3);
+        switch (rnd2)
+        {
+            case 0:
+                scriptX.changeText("A tornado has damaged a fence. It costs " + rnd + " to repair.");
+                break;
+            case 1:
+               scriptX.changeText("A storm has damaged a fence. It costs " + rnd + " to repair.");
+                break;
+            case 2:
+                scriptX.changeText("A heatwave endangers the animals. It costs" + rnd + " to keep them hydrated and cool.");
+                break;
+            case 3:
+                scriptX.changeText("A snowstorm endagers the animals. It costs " + rnd + " to keep them safe.");
+                break;
+        }
+
         scriptX.makeVis();
     }
 }

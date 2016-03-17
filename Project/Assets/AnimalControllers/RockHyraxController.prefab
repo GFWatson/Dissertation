@@ -46,13 +46,14 @@ MonoBehaviour:
   cRate: 1
   tRate: 1
   ani: {fileID: 166112, guid: 3f8d43deee326954dbb9b9fe7597dbf9, type: 2}
-  aniTag: rockhyrax
+  aniTag: rock hyrax
   scriptB: {fileID: 0}
   scriptA: {fileID: 0}
   scriptC: {fileID: 0}
   scriptT: {fileID: 0}
   scriptH: {fileID: 0}
   scriptX: {fileID: 0}
+  scriptY: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -94,7 +95,7 @@ Prefab:
       objectReference: {fileID: 166112, guid: 3f8d43deee326954dbb9b9fe7597dbf9, type: 2}
     - target: {fileID: 0}
       propertyPath: aniTag
-      value: rockhyrax
+      value: rock hyrax
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

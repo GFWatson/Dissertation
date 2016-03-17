@@ -46,13 +46,14 @@ MonoBehaviour:
   cRate: 9
   tRate: 9
   ani: {fileID: 196874, guid: 5c35417a25d40b54bb1c3460bffff2e5, type: 2}
-  aniTag: wlion
+  aniTag: white lion
   scriptB: {fileID: 0}
   scriptA: {fileID: 0}
   scriptC: {fileID: 0}
   scriptT: {fileID: 0}
   scriptH: {fileID: 0}
   scriptX: {fileID: 0}
+  scriptY: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -78,7 +79,7 @@ Prefab:
       objectReference: {fileID: 196874, guid: 5c35417a25d40b54bb1c3460bffff2e5, type: 2}
     - target: {fileID: 0}
       propertyPath: aniTag
-      value: wlion
+      value: white lion
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

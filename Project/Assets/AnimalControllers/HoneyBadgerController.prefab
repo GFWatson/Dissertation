@@ -46,13 +46,14 @@ MonoBehaviour:
   cRate: 5
   tRate: 3
   ani: {fileID: 177332, guid: 8d3e577d95fa3624ab1eb8f1b3a9f4fa, type: 2}
-  aniTag: honeybadger
+  aniTag: honey badger
   scriptB: {fileID: 0}
   scriptA: {fileID: 0}
   scriptC: {fileID: 0}
   scriptT: {fileID: 0}
   scriptH: {fileID: 0}
   scriptX: {fileID: 0}
+  scriptY: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -94,7 +95,7 @@ Prefab:
       objectReference: {fileID: 177332, guid: 8d3e577d95fa3624ab1eb8f1b3a9f4fa, type: 2}
     - target: {fileID: 0}
       propertyPath: aniTag
-      value: honeybadger
+      value: honey badger
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

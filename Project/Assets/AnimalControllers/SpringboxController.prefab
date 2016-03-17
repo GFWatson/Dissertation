@@ -46,13 +46,14 @@ MonoBehaviour:
   cRate: 4
   tRate: 4
   ani: {fileID: 120410, guid: 28b5ba8ed33d5474693cf77729dd593b, type: 2}
-  aniTag: springbox
+  aniTag: springbok
   scriptB: {fileID: 0}
   scriptA: {fileID: 0}
   scriptC: {fileID: 0}
   scriptT: {fileID: 0}
   scriptH: {fileID: 0}
   scriptX: {fileID: 0}
+  scriptY: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -94,7 +95,11 @@ Prefab:
       objectReference: {fileID: 120410, guid: 28b5ba8ed33d5474693cf77729dd593b, type: 2}
     - target: {fileID: 0}
       propertyPath: aniTag
-      value: springbox
+      value: springbok
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: m_Name
+      value: SpringbokController
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

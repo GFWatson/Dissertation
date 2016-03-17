@@ -78,15 +78,15 @@ public class animal : MonoBehaviour {
 
     void moveAverage()
     {
-        moveX = scriptB.getX() / 25;
-        moveY = scriptB.getY() / 25;
+        moveX = scriptB.getX() / 10;
+        moveY = scriptB.getY() / 10;
         move();
     }
 
     void moveRandom()
     {
-        moveX = Random.Range(-1.0f, 1.0f) / 25;
-        moveY = Random.Range(-1.0f, 1.0f) / 25;
+        moveX = Random.Range(-1.0f, 1.0f) / 10;
+        moveY = Random.Range(-1.0f, 1.0f) / 10;
         move();
     }
 
@@ -98,25 +98,25 @@ public class animal : MonoBehaviour {
 
     void checkBounds()
     {
-        if (transform.position.x < -11.0f)
+        if (transform.position.x < -28.0f)
         {
             moveX = 0.04f;
             outOfBounds = true;
             direction = false;
         }
-        else if (transform.position.x > 6.0f)
+        else if (transform.position.x > 19.0f)
         {
             moveX = -0.04f;
             outOfBounds = true;
             direction = false;
         }
-        if (transform.position.y > 4.5f)
+        if (transform.position.y > 13.0f)
         {
             moveY = -0.04f;
             outOfBounds = true;
             direction = false;
         }
-        else if (transform.position.y < -4.5)
+        else if (transform.position.y < -13.0f)
         {
             moveY = 0.04f;
             outOfBounds = true;

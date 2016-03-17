@@ -46,13 +46,14 @@ MonoBehaviour:
   cRate: 10
   tRate: 5
   ani: {fileID: 116708, guid: d799f8040970fee4e9aede600e9ec28e, type: 2}
-  aniTag: rivrab
+  aniTag: riverine rabbit
   scriptB: {fileID: 0}
   scriptA: {fileID: 0}
   scriptC: {fileID: 0}
   scriptT: {fileID: 0}
   scriptH: {fileID: 0}
   scriptX: {fileID: 0}
+  scriptY: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -90,7 +91,7 @@ Prefab:
       objectReference: {fileID: 116708, guid: d799f8040970fee4e9aede600e9ec28e, type: 2}
     - target: {fileID: 0}
       propertyPath: aniTag
-      value: rivrab
+      value: riverine rabbit
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

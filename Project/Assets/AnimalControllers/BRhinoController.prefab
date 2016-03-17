@@ -46,13 +46,14 @@ MonoBehaviour:
   cRate: 7
   tRate: 6
   ani: {fileID: 197912, guid: bfa1e8eedaeb33844829a3ac1c61d392, type: 2}
-  aniTag: brhino
+  aniTag: black rhino
   scriptB: {fileID: 0}
   scriptA: {fileID: 0}
   scriptC: {fileID: 0}
   scriptT: {fileID: 0}
   scriptH: {fileID: 0}
   scriptX: {fileID: 0}
+  scriptY: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -94,7 +95,7 @@ Prefab:
       objectReference: {fileID: 197912, guid: bfa1e8eedaeb33844829a3ac1c61d392, type: 2}
     - target: {fileID: 0}
       propertyPath: aniTag
-      value: brhino
+      value: black rhino
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

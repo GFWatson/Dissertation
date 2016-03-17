@@ -6,8 +6,8 @@ TagManager:
   tags:
   - elephant
   - bushbaby
-  - capehare
-  - rockhyrax
+  - cape hare
+  - rock hyrax
   - wildcat
   - caracal
   - buffalo
@@ -15,22 +15,22 @@ TagManager:
   - baboon
   - warthog
   - porcupine
-  - honeybadger
-  - spottedhyena
+  - honey badger
+  - spotted hyena
   - wildebeast
-  - springbox
-  - brhino
+  - springbok
+  - black rhino
   - leopard
   - cheetah
   - zebra
   - giraffe
-  - wrhino
+  - white rhino
   - hippo
   - lion
-  - wlion
+  - white lion
   - penguin
-  - wilddog
-  - rivrab
+  - wild dog
+  - riverine rabbit
   - meerkat
   layers:
   - Default

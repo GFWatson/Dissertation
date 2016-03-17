@@ -46,13 +46,14 @@ MonoBehaviour:
   cRate: 3
   tRate: 5
   ani: {fileID: 156858, guid: 3ffa360dfaa102f4b9376d40082c9537, type: 2}
-  aniTag: spottedhyena
+  aniTag: spotted hyena
   scriptB: {fileID: 0}
   scriptA: {fileID: 0}
   scriptC: {fileID: 0}
   scriptT: {fileID: 0}
   scriptH: {fileID: 0}
   scriptX: {fileID: 0}
+  scriptY: {fileID: 0}
 --- !u!1001 &100100000
 Prefab:
   m_ObjectHideFlags: 1
@@ -94,7 +95,7 @@ Prefab:
       objectReference: {fileID: 156858, guid: 3ffa360dfaa102f4b9376d40082c9537, type: 2}
     - target: {fileID: 0}
       propertyPath: aniTag
-      value: spottedhyena
+      value: spotted hyena
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}

@@ -100,7 +100,7 @@ public class randomEvents : MonoBehaviour {
     
     void poaching()
     {
-        GameObject ani = GameObject.FindGameObjectWithTag("wrhino");
+        GameObject ani = GameObject.FindGameObjectWithTag("white rhino");
         if(ani != null)
         {
             ani.GetComponent<animal>().remove();
@@ -113,7 +113,7 @@ public class randomEvents : MonoBehaviour {
             switch (rnd)
             {
                 case 0:
-                    ani = GameObject.FindGameObjectWithTag("brhino");
+                    ani = GameObject.FindGameObjectWithTag("black rhino");
                     if (ani != null)
                     {
                         ani.GetComponent<animal>().remove();

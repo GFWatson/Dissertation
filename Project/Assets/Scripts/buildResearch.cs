@@ -29,7 +29,7 @@ public class buildResearch : MonoBehaviour {
     public void vet()
     {
         scriptF.change(-40000);
-        Instantiate(v, new Vector3(9.04f, 4.18f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
+        Instantiate(v, new Vector3(26.04f, 12.18f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
         vB.interactable = false;
         scriptR.reduceDisCosts(3000, 4000);
         scriptX.changeText("You have built a vetinary surgery!");
@@ -41,7 +41,7 @@ public class buildResearch : MonoBehaviour {
     public void ranger()
     {
         scriptF.change(-20000);
-        Instantiate(r, new Vector3(9.11f, 1.24f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
+        Instantiate(r, new Vector3(26.0f, 7.5f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
         rB.interactable = false;
         scriptR.reducePoaching(6);
         scriptX.changeText("You have built a ranger station!");
@@ -54,7 +54,7 @@ public class buildResearch : MonoBehaviour {
     {
         scriptF.change(-12000);
         scriptF.changeWeeklyCost(1000);
-        Instantiate(s, new Vector3(9.14f, 2.77f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
+        Instantiate(s, new Vector3(26.0f, 2.0f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
         sB.interactable = false;
         scriptX.changeText("You have built staff quarters!");
         scriptX.makeVis();
@@ -77,7 +77,7 @@ public class buildResearch : MonoBehaviour {
     {
         scriptF.change(-30000);
         scriptF.changeWeeklyGain(1000);
-        Instantiate(c, new Vector3(9.06f, -1.57f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
+        Instantiate(c, new Vector3(26.0f, -2.5f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
         cB.interactable = false;
         scriptR.reducePoaching(2);
         scriptX.changeText("You now offer a car safari!");
@@ -90,7 +90,7 @@ public class buildResearch : MonoBehaviour {
     {
         scriptF.change(-40000);
         scriptF.changeWeeklyGain(2000);
-        Instantiate(b, new Vector3(9.27f, -0.43f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
+        Instantiate(b, new Vector3(26.0f, -6.0f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
         bB.interactable = false;
         scriptR.reducePoaching(3);
         scriptX.changeText("You now offer a balloon safari!");
@@ -103,7 +103,7 @@ public class buildResearch : MonoBehaviour {
     {
         scriptF.change(-30000);
         scriptF.changeWeeklyGain(2000);
-        Instantiate(h, new Vector3(9.26f, -3.21f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
+        Instantiate(h, new Vector3(26.0f, -10.0f, 0.0f), new Quaternion(0.0f, 0.0f, 0.0f, 0.0f));
         hB.interactable = false;
         scriptR.reducePoaching(3);
         scriptX.changeText("You have a hotel!");

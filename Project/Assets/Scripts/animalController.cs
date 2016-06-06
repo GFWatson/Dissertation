@@ -15,6 +15,7 @@ public class animalController : MonoBehaviour {
     public score scriptC, scriptT, scriptH;
     public notifications scriptX, scriptY;
     bool owned;
+    public AudioClip tap;
 
     // Use this for initialization
     void Start () {
@@ -68,6 +69,9 @@ public class animalController : MonoBehaviour {
             owned = true;
             animalInfo();
         }
+
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void rescueCreate()
@@ -87,6 +91,9 @@ public class animalController : MonoBehaviour {
             InvokeRepeating("calcAvPos", 0.0f, 120.0f);
             owned = true;
         }
+
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void microCreate()
@@ -108,6 +115,9 @@ public class animalController : MonoBehaviour {
             owned = true;
             animalInfo();
         }
+
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void rem()

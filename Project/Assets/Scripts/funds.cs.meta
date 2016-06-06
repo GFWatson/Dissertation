@@ -1,10 +1,12 @@
 fileFormatVersion: 2
 guid: 59e302d70ee1b3348bd51d3a862dc17c
-timeCreated: 1455451757
+timeCreated: 1460493286
 licenseType: Free
 MonoImporter:
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - scriptX: {instanceID: 0}
+  - song: {fileID: 8300000, guid: 4fce2b586da447c46821e053e22a8573, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

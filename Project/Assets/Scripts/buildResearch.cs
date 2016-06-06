@@ -11,6 +11,7 @@ public class buildResearch : MonoBehaviour {
     public animalController[] controllers;
     public notifications scriptX, scriptY;
     bool res;
+    public AudioClip tap;
 
 	// Use this for initialization
 	void Start () {
@@ -36,6 +37,8 @@ public class buildResearch : MonoBehaviour {
         scriptX.makeVis();
         scriptY.changeText("Having a vet on site will reduce their costs in case of emergencies and disease.");
         scriptY.makeVis();
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void ranger()
@@ -48,6 +51,8 @@ public class buildResearch : MonoBehaviour {
         scriptX.makeVis();
         scriptY.changeText("A ranger station will help the effort to stop poachers, keeping your animals alive and well.");
         scriptY.makeVis();
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void staff()
@@ -60,6 +65,8 @@ public class buildResearch : MonoBehaviour {
         scriptX.makeVis();
         scriptY.changeText("Housing for staff will reduce the running cost of the park, and make sure staff are on hand for emergencies.");
         scriptY.makeVis();
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void vacc()
@@ -71,6 +78,8 @@ public class buildResearch : MonoBehaviour {
         scriptX.makeVis();
         scriptY.changeText("Vaccinating animals helps to keep the park disease free.");
         scriptY.makeVis();
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void car()
@@ -84,6 +93,8 @@ public class buildResearch : MonoBehaviour {
         scriptX.makeVis();
         scriptY.changeText("Tours are key to eco-tourism which not only increases funding for the park but is a great way of generating awareness around the world. Crucially, by boosting the local economy and creating jobs it will also reduce crime in the area, particularly poaching.");
         scriptY.makeVis();
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void balloon()
@@ -97,6 +108,8 @@ public class buildResearch : MonoBehaviour {
         scriptX.makeVis();
         scriptY.changeText("Tours are key to eco-tourism which not only increases funding for the park but is a great way of generating awareness around the world. Crucially, by boosting the local economy and creating jobs it will also reduce crime in the area, particularly poaching.");
         scriptY.makeVis();
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void hotel()
@@ -110,6 +123,8 @@ public class buildResearch : MonoBehaviour {
         scriptX.makeVis();
         scriptY.changeText("A hotel is key to eco-tourism which not only increases funding for the park but is a great way of generating awareness around the world. Crucially, by boosting the local economy and creating jobs it will also reduce crime in the area, particularly poaching.");
         scriptY.makeVis();
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void rescue()

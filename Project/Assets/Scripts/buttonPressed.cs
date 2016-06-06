@@ -6,6 +6,7 @@ public class buttonPressed : MonoBehaviour {
     bool open = false;
     public string inName, outName;
     CanvasGroup herbButton, carnButton, bnrButton, microButton, scoreButton;
+    public AudioClip tap;
 
     void Start()
     {
@@ -67,6 +68,8 @@ public class buttonPressed : MonoBehaviour {
             scoreButton.interactable = true;
             scoreButton.alpha = 1;
         }
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void carnPressed()
@@ -95,6 +98,8 @@ public class buttonPressed : MonoBehaviour {
             scoreButton.interactable = true;
             scoreButton.alpha = 1;
         }
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void bnrPressed()
@@ -123,6 +128,8 @@ public class buttonPressed : MonoBehaviour {
             scoreButton.interactable = true;
             scoreButton.alpha = 1;
         }
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void microPressed()
@@ -151,6 +158,8 @@ public class buttonPressed : MonoBehaviour {
             scoreButton.interactable = true;
             scoreButton.alpha = 1;
         }
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 
     public void scorePressed()
@@ -179,5 +188,7 @@ public class buttonPressed : MonoBehaviour {
             scoreButton.interactable = true;
             scoreButton.alpha = 1;
         }
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(tap, 0.7f);
     }
 }

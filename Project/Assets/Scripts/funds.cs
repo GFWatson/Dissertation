@@ -6,6 +6,7 @@ public class funds : MonoBehaviour {
     int money, microMoney, weeklyCost, weeklyGain, monthlyGain;
     UnityEngine.UI.Text textref;
     public notifications scriptX;
+    public AudioClip song;
 
 	// Use this for initialization
 	void Start () {
@@ -15,10 +16,12 @@ public class funds : MonoBehaviour {
         weeklyGain = 4000;
         monthlyGain = 25000;
         textref = GetComponent<UnityEngine.UI.Text>();
+        //if this throws an error ignore it, no actual error hence why you can see funds at start
         textref.text = money.ToString();
         InvokeRepeating("weeklyC", 10.0f, 60.0f);
         InvokeRepeating("weeklyG", 20.0f, 60.0f);
         InvokeRepeating("monthlyG", 240.0f, 240.0f);
+        InvokeRepeating("musicLoop", 0.0f, 15.9f);
 	}
 	
 	// Update is called once per frame
@@ -76,4 +79,9 @@ public class funds : MonoBehaviour {
         scriptX.makeVis();
     }
 
+    void musicLoop()
+    {
+        AudioSource source = GetComponent<AudioSource>();
+        source.PlayOneShot(song, 1.0f);
+    }
 }

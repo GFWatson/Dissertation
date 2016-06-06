@@ -33,7 +33,7 @@ public class averageScore : MonoBehaviour {
         {
             a.interactable = false;
         }
-        first = false; second = false; third = false; fourth = false; fifth = false;
+        
     }
 	
 	// Update is called once per frame
